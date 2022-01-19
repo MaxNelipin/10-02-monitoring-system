@@ -1,0 +1,3 @@
+ARG TELEGRAF_TAG
+FROM telegraf:1.14.0
+
