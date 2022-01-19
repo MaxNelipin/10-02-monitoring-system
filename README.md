@@ -1,6 +1,6 @@
 # 10-02-monitoring-system
 
-#1 
+# 1 Плюcы и минусы Push and Pull
 
 Push Плюсы
 1. Простая репликация на несколько серверов 
@@ -25,17 +25,17 @@ Pull минусы
 2. Агенты должны верифицировать сборщик данных
 3. При большом количестве опрашиваемых агентов необходимо переводить порос на прокси-серверы
 
-#2
+# 2 Определить тип системы мониторинга
 
 - Prometheus: Push and Pull
 - TICK: Push and Pull
 - Zabbix: Push and Pull
-- VictoriaMetrics: Push and Pull
+- VictoriaMetrics: Push and Pull (По-умолчанию push в редакции Percona)
 - Nagios: PULL
 
 
 
-#3 Установка 
+# 3 Установка TICK
 
 ![img.png](img.png)
 
@@ -45,11 +45,11 @@ Pull минусы
 
 ![img_3.png](img_3.png)
 
-#4 Disk Used
+# 4 Метрика Disk Used
 
 ![img_4.png](img_4.png)
 
-#5 Docker metrics
+# 5 Метрики Docker
 
 ![img_5.png](img_5.png)
 
